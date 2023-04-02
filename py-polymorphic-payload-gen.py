@@ -45,7 +45,7 @@ def genwrap():
 # specify main driver
 def main():
     # define our payload
-    transformed_payload = transformpayload(payload)
+    #transformed_payload = transformpayload(payload)
 
     # generate wrapper code and print it out
     wrapper_code = ''.join(genwrap())
