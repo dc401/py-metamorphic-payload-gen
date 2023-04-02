@@ -3,7 +3,7 @@
 # dchow[AT]xtecsystems.com
 # No expressed or implied warranities. What you use this for is on you.
 import random, codecs, re
-import subprocess
+#import subprocess
 
 #define payload to be used for transforms
 payload = 'subprocess.Popen("whoami", shell=True)'
