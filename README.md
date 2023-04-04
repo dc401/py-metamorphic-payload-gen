@@ -4,6 +4,8 @@ A set of obfuscations generators for basic boiler plate demonstrations:
 - [py-polymorphic-payload-gen.py](https://github.com/dc401/py-obfuscation-payloadgen/blob/main/py-polymorphic-payload-gen.py "py-polymorphic-payload-gen.py") - simple polymorphic capabilities of obfuscating Python3 based payload using a simple integer as a random key, transposition with ROT-13, and substitution of whitespaces with random number of hashtags based on the count of the random key
 - TBD: Planned metamorphic variant
 
+### Walkthrough Article
+- [Red Team Polymorphic Engine in Python](https://dwchow.medium.com/red-team-polymorphic-engine-in-python-167878a0f1cc)
 
 ## Usage
 
