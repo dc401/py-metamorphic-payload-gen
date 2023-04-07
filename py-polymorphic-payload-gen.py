@@ -34,7 +34,7 @@ def rot13transform(payload):
   mutated_rot13_payload = re.sub(r"\s", repl_randchar, rot13_payload)
   print("Original payload: " + payload)
   print("Transformed payload: " + mutated_rot13_payload)
-  return rot13_payload
+  return mutated_rot13_payload
   # reversal
   #derandchar_rot13_payload = re.sub(repl_randchar, " ",mutated_rot13_payload)
   #original_payload = codecs.decode(mutated_rot13_payload, 'rot_13')
